@@ -1,0 +1,2 @@
+# NeovimLua
+My neovim configuration
