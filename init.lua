@@ -156,6 +156,6 @@ vim.api.nvim_set_var('chadtree_settings', {
     }
 });
 
-vim.call('CHADopen')
-
-
+--vim.cmd([[CHADopen]])
+--open chattree with <leader>o
+vim.keymap.set('n', '<leader>o', ':CHADopen<CR>', { noremap = true, silent = true })
